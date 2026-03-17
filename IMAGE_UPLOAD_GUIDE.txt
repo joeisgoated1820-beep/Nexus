@@ -1,0 +1,75 @@
+==============================================
+NEXUS WEBSITE - HOW TO ADD YOUR IMAGES
+==============================================
+
+STEP 1: PREPARE YOUR IMAGES
+---------------------------
+1. Make sure your images are in JPG or PNG format
+2. Rename them to simple names like:
+   - hoodie1.jpg
+   - hoodie2.jpg
+   - hoodie3.jpg
+   - tee1.jpg
+   - tee2.jpg
+   - tee3.jpg
+
+STEP 2: PUT IMAGES IN THE FOLDER
+---------------------------------
+1. Open File Explorer
+2. Go to: C:\Users\liamc\NexusStreetwear
+3. Copy and paste your product images into this folder
+4. Your images should be in the same folder as index.html
+
+STEP 3: UPDATE THE HTML FILE
+----------------------------
+1. Right-click on "index.html"
+2. Select "Open with" > "Notepad"
+3. Find the product image lines (they look like this):
+   <img src="product1.jpg" alt="Product 1">
+
+4. Change the image filenames to match YOUR images:
+   
+   FOR CLASSIC HOODIE:
+   Find: <img src="product1.jpg" alt="Product 1">
+   Change to: <img src="hoodie1.jpg" alt="Classic Hoodie">
+   
+   FOR GRAPHIC TEE:
+   Find: <img src="product2.jpg" alt="Product 2">
+   Change to: <img src="tee1.jpg" alt="Graphic Tee">
+   
+   FOR ZIP-UP HOODIE:
+   Find: <img src="product3.jpg" alt="Product 3">
+   Change to: <img src="hoodie2.jpg" alt="Zip-Up Hoodie">
+   
+   FOR OVERSIZED TEE:
+   Find: <img src="product4.jpg" alt="Product 4">
+   Change to: <img src="tee2.jpg" alt="Oversized Tee">
+   
+   FOR PREMIUM HOODIE:
+   Find: <img src="product5.jpg" alt="Product 5">
+   Change to: <img src="hoodie3.jpg" alt="Premium Hoodie">
+   
+   FOR ESSENTIAL TEE:
+   Find: <img src="product6.jpg" alt="Product 6">
+   Change to: <img src="tee3.jpg" alt="Essential Tee">
+
+5. Press Ctrl+S to save
+6. Close Notepad
+
+STEP 4: VIEW YOUR CHANGES
+--------------------------
+1. Double-click "index.html" to open in browser
+2. Press F5 to refresh
+3. Your images should now appear!
+
+TROUBLESHOOTING:
+----------------
+- If images don't show up, make sure:
+  1. Image files are in the NexusStreetwear folder
+  2. Image filenames in HTML match EXACTLY (including .jpg or .png)
+  3. No spaces in image filenames
+
+QUICK TIP:
+----------
+For best results, resize your images to 400x400 pixels before uploading.
+This makes them load faster and look more professional!

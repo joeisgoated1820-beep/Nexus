@@ -1,0 +1,83 @@
+========================================
+NEXUS STREETWEAR WEBSITE - EDITING GUIDE
+========================================
+
+HOW TO EDIT YOUR WEBSITE:
+
+1. OPEN THE FILE
+   - Right-click on "index.html" 
+   - Select "Open with" > "Notepad" (or any text editor)
+
+2. WHAT YOU CAN EDIT:
+
+   A) PRODUCT NAMES
+      - Find: <h3 class="product-name">Classic Hoodie</h3>
+      - Change "Classic Hoodie" to your product name
+      - Do this for all 6 products
+
+   B) PRODUCT PRICES
+      - Find: <p class="product-price">$79.99</p>
+      - Change "$79.99" to your price
+      - Do this for all 6 products
+
+   C) PRODUCT IMAGES
+      - Find: <img src="product1.jpg" alt="Product 1">
+      - Put your image files in the NexusStreetwear folder
+      - Name them: product1.jpg, product2.jpg, etc.
+      - OR change "product1.jpg" to match your image filename
+
+   D) HERO SECTION TEXT
+      - Find: <p class="hero-subtitle">Premium Quality. Unmatched Style.</p>
+      - Change the text between > and </p>
+
+   E) ABOUT SECTION
+      - Find the section that starts with: <section id="about"
+      - Change the paragraph text to describe your brand
+
+   F) CONTACT INFORMATION
+      - Find: Email: info@nexusstreetwear.com
+      - Change to your real email
+      - Find: Phone: (555) 123-4567
+      - Change to your real phone number
+
+3. SAVE YOUR CHANGES
+   - Press Ctrl+S to save
+   - Or go to File > Save
+
+4. VIEW YOUR CHANGES
+   - Double-click index.html to open in browser
+   - Refresh the page (press F5) to see updates
+
+========================================
+QUICK TIPS:
+========================================
+
+- Use Ctrl+F to search for text you want to change
+- Be careful not to delete the < > symbols or quotes
+- Always save before viewing in browser
+- Keep a backup copy before making big changes
+
+========================================
+ADDING YOUR PRODUCT IMAGES:
+========================================
+
+1. Get your product photos ready
+2. Resize them to around 800x800 pixels (optional but recommended)
+3. Save them as JPG files
+4. Name them: product1.jpg, product2.jpg, product3.jpg, etc.
+5. Put them in the same folder as index.html
+6. Refresh your website in the browser
+
+========================================
+NEED HELP?
+========================================
+
+If something breaks:
+- Check that you didn't delete any < > symbols
+- Make sure all quotes " " are still there
+- Look for the original text in this guide and compare
+
+Common mistakes:
+- Deleting </h3> or </p> tags
+- Removing quotes around filenames
+- Breaking the HTML structure
