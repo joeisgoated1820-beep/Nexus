@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const productCard = this.closest('.product-card');
             
             // Get product details
-            const productName = productCard.querySelector('h3').textContent;
-            const productPrice = productCard.querySelector('.price').textContent;
+            const productName = productCard.querySelector('.product-name').textContent;
+            const productPrice = productCard.querySelector('..product-price').textContent;
             
             // Show confirmation message
             alert(`Added to cart!\n\nProduct: ${productName}\nPrice: ${productPrice}`);
